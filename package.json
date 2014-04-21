@@ -1,0 +1,34 @@
+{
+  "name": "hexo-series",
+  "version": "0.0.5",
+  "description": "A hexo plugin for writing article series.",
+  "main": "./bin/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akfish/hexo-series.git"
+  },
+  "keywords": [
+    "website",
+    "blog",
+    "cms",
+    "framework",
+    "hexo"
+  ],
+  "author": "AKFish <akfish@gmail.com> (http://catx.me)",
+  "license": {
+    "type": "GPLv2",
+    "url": "https://raw.github.com/akfish/hexo-series/master/LICENSE"
+  },
+  "engines": {
+    "hexo": "*"
+  },
+  "dependencies": {
+    "request": "*",
+    "graceful-fs": "*",
+    "async": "*",
+    "url": "*",
+    "path": "*",
+    "colors": "*",
+    "q": "~1.0.1"
+  }
+}
